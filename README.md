@@ -56,6 +56,7 @@ cd frontend
 npm install    # ensure Node.js 18+ is installed
 npm start
 ```
+---
 
 ## 📄 License
 This project is licensed under the [MIT License](./LICENSE).
