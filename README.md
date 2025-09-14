@@ -19,10 +19,13 @@ Tech Stack
 Project Structure
 
 smart_news_summarier/
+
   backend/
+  
     -main.py
     -requirements.txt
   frontend/
+  
     -src/
     -package.json
   .gitignore
