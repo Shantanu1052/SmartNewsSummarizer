@@ -37,18 +37,29 @@ smart_news_summarizer/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
+---
 
-🚀 Getting Started
+## 🚀 Getting Started
 Backend
+```
 cd backend
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
 pip install -r requirements.txt
 uvicorn main:app --reload
-
+```
 Frontend
+```
 cd frontend
 npm install    # ensure Node.js 18+ is installed
 npm start
+```
+
+License
+```
+This project is licensed under the MIT License
+```
+pm start
 
