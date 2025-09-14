@@ -17,6 +17,7 @@ Tech Stack
 3. Other: Vercel (frontend deploy), Render/Heroku (backend deploy)
 
 Project Structure
+
 smart_news_summarier\
   backend\
     -main.py
@@ -29,6 +30,7 @@ smart_news_summarier\
   README.md
 
 Getting Started
+
 1. cd backend
 2. python -m venv venv
 3. source venv/bin/activate   # (Linux/Mac)
@@ -40,6 +42,7 @@ Getting Started
 9. npm start
 
 License
+
 This project is licensed under the MIT License.
 
 
