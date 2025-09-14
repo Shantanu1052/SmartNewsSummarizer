@@ -1,15 +1,14 @@
 # Smart News Summarizer
 
 A full-stack web application that delivers concise, AI-powered news summaries.  
-Built with **FastAPI (backend)** and **React (frontend)**, it fetches top headlines from NewsAPI, generates short summaries using HuggingFace’s BART model, and displays them with region and category filters in a clean UI.
+Built with **FastAPI (backend)** and **React (frontend)**, it fetches top headlines from NewsAPI, generates short summaries using HuggingFace’s BART model, and displays them with category filters in a clean UI.
 
 ---
 
 ## ✨ Features
 - Fetches top headlines via NewsAPI  
 - Summarizes articles into 2–3 lines with NLP  
-- Supports **region (country)** and **category** filters  
-- React frontend with dropdowns + loading spinner  
+- Has React frontend with **category** filters  
 - Extensible for RSS feed integration  
 - Ready for free deployment on Vercel/Render  
 
