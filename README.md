@@ -28,8 +28,11 @@ smart_news_summarier/
   
     -src/
     -package.json
+  
   .gitignore
+  
   LICENSE
+  
   README.md
 
 Getting Started
