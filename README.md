@@ -1,55 +1,54 @@
-#Smart News Summarizer
+# Smart News Summarizer
 
-A full-stack web application that delivers concise, AI-powered news summaries.
-Built with FastAPI (backend) and React (frontend), it fetches top headlines from NewsAPI, generates short summaries using HuggingFace’s BART model, and displays them with region and category filters in a basic UI.
+A full-stack web application that delivers concise, AI-powered news summaries.  
+Built with **FastAPI (backend)** and **React (frontend)**, it fetches top headlines from NewsAPI, generates short summaries using HuggingFace’s BART model, and displays them with region and category filters in a clean UI.
 
-Features
-1. Fetches top headlines via NewsAPI
-2. Summarizes articles into 2–3 lines with NLP
-3. Supports region (country) and category filters
-4. React frontend with dropdowns + loading spinner
-5. Extensible for RSS feed integration
-6. Ready for free deployment on Vercel/Render
+---
 
-Tech Stack
-1. Backend: FastAPI, HuggingFace Transformers, Requests
-2. Frontend: React, Axios
-3. Other: Vercel (frontend deploy), Render/Heroku (backend deploy)
+## ✨ Features
+- Fetches top headlines via NewsAPI  
+- Summarizes articles into 2–3 lines with NLP  
+- Supports **region (country)** and **category** filters  
+- React frontend with dropdowns + loading spinner  
+- Extensible for RSS feed integration  
+- Ready for free deployment on Vercel/Render  
 
-Project Structure
+---
 
-smart_news_summarier/
+## 🛠️ Tech Stack
+- **Backend:** FastAPI, HuggingFace Transformers, Requests  
+- **Frontend:** React, Axios  
+- **Deployment:** Vercel (frontend), Render/Heroku (backend)  
 
-  backend/
-  
-    -main.py
-    -requirements.txt
-  frontend/
-  
-    -src/
-    -package.json
-  
-  .gitignore
-  
-  LICENSE
-  
-  README.md
+---
 
-Getting Started
+## 📂 Project Structure
+```plaintext
+smart_news_summarizer/
+│
+├── backend/
+│   ├── main.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   └── package.json
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 
-1. cd backend
-2. python -m venv venv
-3. source venv/bin/activate   # (Linux/Mac)
-4. venv\Scripts\activate      # (Windows)
-5. pip install -r requirements.txt
-6. uvicorn main:app --reload
-7. cd frontend
-8. npm i (ensure node18 is available, if not install from official site)
-9. npm start
+🚀 Getting Started
+Backend
+cd backend
+python -m venv venv
+source venv/bin/activate   # (Linux/Mac)
+venv\Scripts\activate      # (Windows)
+pip install -r requirements.txt
+uvicorn main:app --reload
 
-License
+Frontend
+cd frontend
+npm install    # ensure Node.js 18+ is installed
+npm start
 
-This project is licensed under the MIT License.
-
-
-  
