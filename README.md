@@ -31,6 +31,7 @@ smart_news_summarizer/
 │
 ├── frontend/
 │   ├── src/
+|   ├── public/
 │   └── package.json
 │
 ├── .gitignore
